@@ -2,7 +2,7 @@
 // import "core-js/fn/array.find"
 // ...
 import { Web3Wrapper } from '@0xproject/web3-wrapper'
-import * as Web3 from 'web3'
+import Web3 from 'web3'
 
 const provider = 'https://mainnet.infura.io/KPd6siGMdskNVIW1WeNj'
 
