@@ -909,9 +909,6 @@ img { max-width: 100%; }
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
-		<li class=" tsd-kind-class">
-			<a href="classes/ethholders.html" class="tsd-kind-icon">Eth<wbr>Holders</a>
-		</li>
 		<li class=" tsd-kind-variable tsd-is-not-exported">
 			<a href="globals.html#provider" class="tsd-kind-icon">provider</a>
 		</li>
@@ -920,6 +917,9 @@ img { max-width: 100%; }
 		</li>
 		<li class=" tsd-kind-variable tsd-is-not-exported">
 			<a href="globals.html#web3wrapper" class="tsd-kind-icon">web3<wbr>Wrapper</a>
+		</li>
+		<li class=" tsd-kind-function tsd-is-not-exported">
+			<a href="globals.html#getavailableaddresses" class="tsd-kind-icon">get<wbr>Available<wbr>Addresses</a>
 		</li>
 	</ul>
 </nav>
@@ -1086,18 +1086,18 @@ semantic-release-cli setup
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
-					<section class="tsd-index-section ">
-						<h3>Classes</h3>
-						<ul class="tsd-index-list">
-							<li class="tsd-kind-class"><a href="classes/ethholders.html" class="tsd-kind-icon">Eth<wbr>Holders</a></li>
-						</ul>
-					</section>
 					<section class="tsd-index-section tsd-is-not-exported">
 						<h3>Variables</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-variable tsd-is-not-exported"><a href="globals.html#provider" class="tsd-kind-icon">provider</a></li>
 							<li class="tsd-kind-variable tsd-is-not-exported"><a href="globals.html#web3" class="tsd-kind-icon">web3</a></li>
 							<li class="tsd-kind-variable tsd-is-not-exported"><a href="globals.html#web3wrapper" class="tsd-kind-icon">web3<wbr>Wrapper</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section tsd-is-not-exported">
+						<h3>Functions</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-function tsd-is-not-exported"><a href="globals.html#getavailableaddresses" class="tsd-kind-icon">get<wbr>Available<wbr>Addresses</a></li>
 						</ul>
 					</section>
 				</div>
@@ -1111,7 +1111,7 @@ semantic-release-cli setup
 				<div class="tsd-signature tsd-kind-icon">provider<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"https://mainnet.infura.io/KPd6siGMdskNVIW1WeNj"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;https://mainnet.infura.io/KPd6siGMdskNVIW1WeNj&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/b6d3870/src/eth-holders-ts.ts#L7">eth-holders-ts.ts:7</a></li>
+						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/2d24963/src/eth-holders-ts.ts#L7">eth-holders-ts.ts:7</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -1121,7 +1121,7 @@ semantic-release-cli setup
 				<div class="tsd-signature tsd-kind-icon">web3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Web3</span><span class="tsd-signature-symbol"> =&nbsp;new Web3(new Web3.providers.HttpProvider(provider))</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/b6d3870/src/eth-holders-ts.ts#L9">eth-holders-ts.ts:9</a></li>
+						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/2d24963/src/eth-holders-ts.ts#L9">eth-holders-ts.ts:9</a></li>
 					</ul>
 				</aside>
 			</section>
@@ -1131,9 +1131,29 @@ semantic-release-cli setup
 				<div class="tsd-signature tsd-kind-icon">web3<wbr>Wrapper<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Web3Wrapper</span><span class="tsd-signature-symbol"> =&nbsp;new Web3Wrapper(web3.currentProvider)</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/b6d3870/src/eth-holders-ts.ts#L10">eth-holders-ts.ts:10</a></li>
+						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/2d24963/src/eth-holders-ts.ts#L10">eth-holders-ts.ts:10</a></li>
 					</ul>
 				</aside>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+			<h2>Functions</h2>
+			<section class="tsd-panel tsd-member tsd-kind-function tsd-is-not-exported">
+				<a name="getavailableaddresses" class="tsd-anchor"></a>
+				<h3>get<wbr>Available<wbr>Addresses</h3>
+				<ul class="tsd-signatures tsd-kind-function tsd-is-not-exported">
+					<li class="tsd-signature tsd-kind-icon">get<wbr>Available<wbr>Addresses<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/2d24963/src/eth-holders-ts.ts#L12">eth-holders-ts.ts:12</a></li>
+							</ul>
+						</aside>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+					</li>
+				</ul>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
