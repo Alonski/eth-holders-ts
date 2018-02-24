@@ -1,4 +1,4 @@
-import DummyClass from '../src/eth-holders-ts'
+import EthHolders from '../src/eth-holders-ts'
 
 /**
  * Dummy test
@@ -9,6 +9,6 @@ describe('Dummy test', () => {
   })
 
   it('DummyClass is instantiable', () => {
-    expect(new DummyClass()).toBeInstanceOf(DummyClass)
+    expect(new EthHolders()).toBeInstanceOf(EthHolders)
   })
 })

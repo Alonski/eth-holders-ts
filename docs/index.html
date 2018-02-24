@@ -910,7 +910,16 @@ img { max-width: 100%; }
 <nav class="tsd-navigation secondary">
 	<ul>
 		<li class=" tsd-kind-class">
-			<a href="classes/dummyclass.html" class="tsd-kind-icon">Dummy<wbr>Class</a>
+			<a href="classes/ethholders.html" class="tsd-kind-icon">Eth<wbr>Holders</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-is-not-exported">
+			<a href="globals.html#provider" class="tsd-kind-icon">provider</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-is-not-exported">
+			<a href="globals.html#web3" class="tsd-kind-icon">web3</a>
+		</li>
+		<li class=" tsd-kind-variable tsd-is-not-exported">
+			<a href="globals.html#web3wrapper" class="tsd-kind-icon">web3<wbr>Wrapper</a>
 		</li>
 	</ul>
 </nav>
@@ -921,9 +930,8 @@ img { max-width: 100%; }
 			<p><a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" alt="styled with prettier"></a>
 				<a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/alexjoverm/typescript-library-starter.svg" alt="Greenkeeper badge"></a>
 				<a href="https://travis-ci.org/alexjoverm/typescript-library-starter"><img src="https://img.shields.io/travis/alexjoverm/typescript-library-starter.svg" alt="Travis"></a>
-				<a href="https://coveralls.io/github/alexjoverm/typescript-library-starter"><img src="https://img.shields.io/coveralls/alexjoverm/typescript-library-starter.svg" alt="Coveralls"></a>
-				<a href="https://david-dm.org/alexjoverm/typescript-library-starter?type=dev"><img src="https://david-dm.org/alexjoverm/typescript-library-starter/dev-status.svg" alt="Dev Dependencies"></a>
-			<a href="https://paypal.me/AJoverMorales"><img src="https://img.shields.io/badge/donate-paypal-blue.svg" alt="Donate"></a></p>
+				<a href="https://coveralls.io/github/Alonski/eth-holders-ts?branch=master"><img src="https://coveralls.io/repos/github/Alonski/eth-holders-ts/badge.svg?branch=master" alt="Coverage Status"></a>
+			<a href="https://david-dm.org/alexjoverm/typescript-library-starter?type=dev"><img src="https://david-dm.org/alexjoverm/typescript-library-starter/dev-status.svg" alt="Dev Dependencies"></a></p>
 			<p>A starter project that makes creating a TypeScript library extremely easy.</p>
 			<p><img src="https://i.imgur.com/opUmHp0.png" alt=""></p>
 			<h3 id="usage">Usage</h3>
@@ -1081,10 +1089,51 @@ semantic-release-cli setup
 					<section class="tsd-index-section ">
 						<h3>Classes</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-class"><a href="classes/dummyclass.html" class="tsd-kind-icon">Dummy<wbr>Class</a></li>
+							<li class="tsd-kind-class"><a href="classes/ethholders.html" class="tsd-kind-icon">Eth<wbr>Holders</a></li>
+						</ul>
+					</section>
+					<section class="tsd-index-section tsd-is-not-exported">
+						<h3>Variables</h3>
+						<ul class="tsd-index-list">
+							<li class="tsd-kind-variable tsd-is-not-exported"><a href="globals.html#provider" class="tsd-kind-icon">provider</a></li>
+							<li class="tsd-kind-variable tsd-is-not-exported"><a href="globals.html#web3" class="tsd-kind-icon">web3</a></li>
+							<li class="tsd-kind-variable tsd-is-not-exported"><a href="globals.html#web3wrapper" class="tsd-kind-icon">web3<wbr>Wrapper</a></li>
 						</ul>
 					</section>
 				</div>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group tsd-is-not-exported">
+			<h2>Variables</h2>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-not-exported">
+				<a name="provider" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagConst">Const</span> provider</h3>
+				<div class="tsd-signature tsd-kind-icon">provider<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"https://mainnet.infura.io/KPd6siGMdskNVIW1WeNj"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;https://mainnet.infura.io/KPd6siGMdskNVIW1WeNj&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/b6d3870/src/eth-holders-ts.ts#L7">eth-holders-ts.ts:7</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-not-exported">
+				<a name="web3" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagConst">Const</span> web3</h3>
+				<div class="tsd-signature tsd-kind-icon">web3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Web3</span><span class="tsd-signature-symbol"> =&nbsp;new Web3(new Web3.providers.HttpProvider(provider))</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/b6d3870/src/eth-holders-ts.ts#L9">eth-holders-ts.ts:9</a></li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-not-exported">
+				<a name="web3wrapper" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagConst">Const</span> web3<wbr>Wrapper</h3>
+				<div class="tsd-signature tsd-kind-icon">web3<wbr>Wrapper<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Web3Wrapper</span><span class="tsd-signature-symbol"> =&nbsp;new Web3Wrapper(web3.currentProvider)</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in <a href="https://github.com/Alonski/eth-holders-ts/blob/b6d3870/src/eth-holders-ts.ts#L10">eth-holders-ts.ts:10</a></li>
+					</ul>
+				</aside>
 			</section>
 		</section>
 		<footer class="with-border-bottom">

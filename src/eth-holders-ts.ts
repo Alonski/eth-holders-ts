@@ -1,4 +1,17 @@
 // Import here Polyfills if needed. Recommended core-js (npm i -D core-js)
 // import "core-js/fn/array.find"
 // ...
-export default class DummyClass {}
+import { Web3Wrapper } from '@0xproject/web3-wrapper'
+import * as Web3 from 'web3'
+
+const provider = 'https://mainnet.infura.io/KPd6siGMdskNVIW1WeNj'
+
+const web3 = new Web3(new Web3.providers.HttpProvider(provider))
+const web3Wrapper = new Web3Wrapper(web3.currentProvider)
+
+export default class EthHolders {
+  public async getAvailableAddresses(): Promise<string[]> {
+    const availableAddresses = await web3Wrapper.getAvailableAddressesAsync()
+    return availableAddresses
+  }
+}

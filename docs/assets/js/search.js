@@ -1,3 +1,3 @@
 ï»¿var typedoc = typedoc || {};
             typedoc.search = typedoc.search || {};
-            typedoc.search.data = {"kinds":{"128":"Class"},"rows":[{"id":0,"kind":128,"name":"DummyClass","url":"classes/dummyclass.html","classes":"tsd-kind-class"}]};
+            typedoc.search.data = {"kinds":{"32":"Variable","128":"Class","2048":"Method"},"rows":[{"id":0,"kind":128,"name":"EthHolders","url":"classes/ethholders.html","classes":"tsd-kind-class"},{"id":1,"kind":2048,"name":"getAvailableAddresses","url":"classes/ethholders.html#getavailableaddresses","classes":"tsd-kind-method tsd-parent-kind-class","parent":"EthHolders"},{"id":2,"kind":32,"name":"provider","url":"globals.html#provider","classes":"tsd-kind-variable tsd-is-not-exported"},{"id":3,"kind":32,"name":"web3","url":"globals.html#web3","classes":"tsd-kind-variable tsd-is-not-exported"},{"id":4,"kind":32,"name":"web3Wrapper","url":"globals.html#web3wrapper","classes":"tsd-kind-variable tsd-is-not-exported"}]};
