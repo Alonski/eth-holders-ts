@@ -8,7 +8,11 @@ describe('Dummy test', () => {
     expect(true).toBeTruthy()
   })
 
-  it('DummyClass is instantiable', () => {
+  it('EthHolders is instantiable', () => {
     expect(new EthHolders()).toBeInstanceOf(EthHolders)
+  })
+
+  it('Check Hello World', () => {
+    expect(new EthHolders().printHelloWorld()).toBe('Hello World')
   })
 })
